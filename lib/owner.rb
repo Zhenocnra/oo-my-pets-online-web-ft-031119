@@ -1,5 +1,6 @@
 class Owner
   attr_reader :species
+  attr_accessor 
   
   OWNERS = []
   
@@ -16,5 +17,7 @@ class Owner
   def self.count
     OWNERS.size
   end
+  
+  
   
 end
