@@ -58,8 +58,12 @@ class Owner
   
   def sell_pets
     #should never EVER be used >:(
-    pets.each do |species, lifeform|
-      lifeform.each do |life
+    pets.each do |species, animals|
+      animals.each do |animal|
+        animal.mood = "nervous"
+      end
+      animals.clear
+    end
   end
   
 end
