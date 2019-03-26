@@ -1,6 +1,8 @@
 class Owner
   attr_accessor
   
-  def 
+  def self.all
+    @@all
+  end
   
 end
