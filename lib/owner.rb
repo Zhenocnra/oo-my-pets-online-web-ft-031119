@@ -56,4 +56,10 @@ class Owner
     end
   end
   
+  def sell_pets
+    #should never EVER be used >:(
+    pets.each do |species, lifeform|
+      lifeform.each do |life
+  end
+  
 end
