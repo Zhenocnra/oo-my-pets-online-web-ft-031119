@@ -43,7 +43,14 @@ class Owner
     dog.mood = happy
   end
   
-  def play_with_cats
+  def walk_dogs
+    pets[:dogs].each do |dog|
+    dog.mood = happy
+  end
+  
+  def walk_dogs
+    pets[:dogs].each do |dog|
+    dog.mood = happy
   end
   
 end
